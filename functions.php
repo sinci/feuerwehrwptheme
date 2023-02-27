@@ -385,7 +385,7 @@ function themename_credits() {
 }
 endif;
 
-
+// ULKIT-SLIDESHOW PLUGIN
 add_action( 'tgmpa_register', 'my_theme_register_required_plugins' );
 function my_theme_register_required_plugins() {
     $plugins = array(

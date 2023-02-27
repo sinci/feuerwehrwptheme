@@ -19,9 +19,9 @@ get_header();
 	<div id="primary" class="content-area" uk-grid>
 		<main id="main" class="uk-width-3-4@m">
 		<?php
-				echo '<div class="uk-margin-medium-bottom">';
-				echo do_shortcode( '[ulkit_slideshow post_type=["post","einsaetze"]' );
-				echo '</div>';				
+			echo '<div class="uk-margin-medium-bottom">';
+			echo do_shortcode( '[ulkit_slideshow post_type=["post","einsaetze"]' );
+			echo '</div>';				
 		?>
 		<?php
 		if ( have_posts() ) :
