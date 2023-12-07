@@ -92,6 +92,11 @@ a,
     background-color: #f5f5f5;
 }
 
+.uk-overlay-primary .uk-badge {
+    background-color: #d63b37;
+    color: #fff;
+}
+
 
 /* HEADER
 ****************************************************/
