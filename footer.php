@@ -65,7 +65,5 @@
 
 </div><!-- #page -->
 
-<p>Test</p>
-
 </body>
 </html>
