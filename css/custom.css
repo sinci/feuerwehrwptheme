@@ -62,10 +62,15 @@ h6,
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
+:root {
+    --red:#d63b37;
+    --black:#313232;
+  }
+
 a,
 .uk-link,
 .uk-article-meta a {
-    color: #d63b37;
+    color: var(--red);
 }
 
 .uk-grid,
@@ -93,7 +98,7 @@ a,
 }
 
 .uk-overlay-primary .uk-badge {
-    background-color: #d63b37;
+    background-color:var(--red);
     color: #fff;
 }
 
@@ -107,11 +112,11 @@ a,
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
-    background: #313232;
+    background:var(--black);
 }
 
 .uk-container.uk-container-expand.uk-sticky {
-    background: #313232;
+    background:var(--black);
 }
 
 img.custom-logo {
@@ -145,7 +150,7 @@ ul.sub-menu ul.sub-menu {
 .uk-navbar-right li a:hover,
 .uk-navbar-right li a:focus,
 .uk-navbar-right li a.uk-open {
-    background: #d63b37;
+    background: var(--red);
     color: #ffffff;
 }
 
@@ -153,7 +158,7 @@ ul.sub-menu ul.sub-menu {
     top: 45px !important;
     min-width: 200px;
     padding: 20px;
-    background: #d63b37;
+    background: var(--red);
     color: #ffffff;
     box-shadow: none;
 }
@@ -180,7 +185,7 @@ ul.sub-menu ul.sub-menu {
 
 .uk-h3 .uk-link,
 .uk-h3 a {
-    color: #333333;
+    color: var(--black);
 }
 
 .uk-article::after {
@@ -259,7 +264,7 @@ a.uk-icon-button.instagram {
 ****************************************************/
 
 .site-footer {
-    background: #313232;
+    background: var(--black);
     padding-top: 20px;
     padding-bottom: 20px;
     color: #dbdbdb;
