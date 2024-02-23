@@ -1,4 +1,4 @@
-/* Custom CSS Feuerwehr
+/* Custom CSS Feuerwehr-WordPress
 ****************************************************/
 
 
@@ -178,6 +178,10 @@ ul.sub-menu ul.sub-menu {
     top: 0 !important;
     margin-top: 0 !important;
 }
+
+.uk-navbar-right li.menu-item-has-children:hover > a span.uk-icon {
+    transform: rotateX(180deg);
+  }
 
 
 /* MAIN

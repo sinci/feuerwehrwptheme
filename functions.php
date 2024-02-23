@@ -180,6 +180,8 @@ function feuerwehrwp_scripts() {
 
 	wp_enqueue_style( 'custom-stylesheet', get_template_directory_uri() . '/css/custom.css' );
 
+	wp_enqueue_script('feuerwehrwp-custom', get_template_directory_uri() . '/js/custom.js', array(), null, true);
+
 	wp_enqueue_script( 'feuerwehrwp-uikit', get_template_directory_uri() . '/js/uikit.min.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'feuerwehrwp-icons', get_template_directory_uri() . '/js/uikit-icons.min.js', array(), '20151215', true );
@@ -412,6 +414,3 @@ function my_theme_register_required_plugins() {
 
     tgmpa( $plugins, $config );
 }
-
-
-
